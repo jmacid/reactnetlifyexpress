@@ -19,7 +19,7 @@ function App() {
       setTitle(response.data)
     }
     
-    const fetchedTitle = fetchInfo()//.then(res => setTitle(res));
+    fetchInfo()
 
   }, [])
 
