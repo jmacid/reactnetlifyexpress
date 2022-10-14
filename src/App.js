@@ -10,7 +10,7 @@ function App() {
   
   useEffect( () => {
     const fetchInfo = async () => {
-      const response = await axios.get('https://hilarious-kashata-c75d0a/.netlify/functions/api');
+      const response = await axios.get('https://hilarious-kashata-c75d0a.netlify.app/.netlify/functions/api');
   
       if(response.status !== 200){
         return null
