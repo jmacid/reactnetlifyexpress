@@ -1,0 +1,7 @@
+[build]
+  functions = "functions"
+  command = "echo 'this is only here so that netlify deploys functions within folders'"
+
+[dev]
+  port = 8888
+  functionsPort = 3333
